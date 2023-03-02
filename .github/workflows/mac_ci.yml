@@ -1,9 +1,6 @@
 name: Mac CI
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   ubsan:
